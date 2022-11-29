@@ -1,0 +1,206 @@
+@font-face {
+	font-family: "Libre";
+	src: url(fonts/LibreBaskerville-Regular.otf);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("img/newestbg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: center center;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+
+.batstateu-title h1 {
+	margin-top: -10px;
+	font-family: "Libre";
+	font-size: x-large;
+	margin: none;
+}
+.batstateu-title h2 {
+	font-family: "Libre";
+	font-size: large;
+	color: rgb(225, 35, 35);
+}
+
+.batstateu-title h3 {
+	font-family: 'Trebuchet MS';
+	font-size: smaller;
+}
+
+.batstateu-logo {
+	width: 135px;
+	margin-top:-15px;
+	margin-left: -30px;
+}
+
+.studportal-logo {
+	width: 40px;
+	margin-top: 30px;
+	margin-bottom: -15px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+.nav {
+	margin-left: 200px;
+}
+
+.nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 15px;
+}
+
+.fa {
+	font-size: 200px;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+	background: none;
+	color: rgb(225, 35, 35);
+	cursor: pointer;
+ 
+}
+.fa-envelope {
+	background: none;
+	color: rgb(225, 35, 35);
+	cursor: pointer;
+}
+
+.OURSmaintitle {
+	max-width: 600px;
+}
+
+.OURSmaintitle h1 {
+	font-family: "Libre";
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: -100px;
+	font-size: 50px;
+	font-weight: normal;
+	color: #fff;
+}
+
+/* will be visible for mobile devices */
+.footer {
+	display: none;
+}
+
+/* log in button */
+#loginbtn {
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none;
+	user-select: none;
+	background: none;
+	margin-left: 140px;
+	padding: 10px 45px;
+	text-align: center;
+	transition: .5s;
+	border: 5px solid white;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	border-radius: 30px;
+	font-family: "Libre";
+}
+
+#loginbtn:hover{
+	opacity: .4;
+	cursor: pointer;
+}
+
+#loginbtn:active, #loginbtn:visited {
+	background-color:#aaa;
+	border-color: aaa;
+}
+
+.modal {
+	display: none;
+}
+
+@media screen and (max-width: 850px){
+	body{
+		background-image: url("img/mb3.png");
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-attachment: fixed;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		margin-left: 0px;
+	}
+	
+	.batstateu-title h1 {
+		margin-top: 5px;
+		font-size: 14px;
+	}
+	
+	.batstateu-title h2 {
+		font-size: 11px;
+	}
+
+	.batstateu-title h3 {
+		font-size: 10px;
+	}
+	
+	.batstateu-logo {
+		width: 85px;
+		margin-top:-5px;
+		margin-left: -30px;
+	}
+	
+	.OURSmaintitle {
+		max-width: 400px;
+	}
+
+	.OURSmaintitle h1 {
+		margin-top: 130px;
+		margin-left: 20px;
+		font-size: 36px;
+	}
+	
+	.nav {
+		display: none;
+	}
+	
+	#loginbtn {
+		margin-left: 27px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.OURSmaintitle h1 {
+		margin-top: 75px;
+		margin-left: 20px;
+	}
+}
+

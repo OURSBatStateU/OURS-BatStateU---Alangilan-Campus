@@ -1,0 +1,8 @@
+LOG IN AS ADMIN:
+username: admin
+password: admin123
+
+
+LOG IN AS STUDENT:
+username: sr-code
+password: student portal's password

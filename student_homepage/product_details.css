@@ -1,0 +1,243 @@
+@font-face {
+    font-family: PSB;
+    src: url(fonts/PoppinsSemibold-8l8n.otf);
+  }
+  @font-face {
+    font-family: TTCommons;
+    src: url(fonts/TT\ Commons\ ExtraLight.otf);
+  }
+  @font-face {
+    font-family: TTDemi;
+    src: url(fonts/TT\ Commons\ DemiBold.otf);
+  }
+  body{
+    background-color: white;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    font-family: "TTCommons";
+    font-weight: bolder;
+    font-size: large;
+    display: block;
+    color: #d62226;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:rgb(244, 244, 244);
+  }
+  select {
+    margin-left: 30px;
+  }
+  option {
+    font-family: "TTCommons";
+    font-size: medium;
+    font-weight: bold;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: 3px solid #d62226;
+    color: #d62226;
+    outline: none;
+    background-color: white;
+    cursor: auto;
+    padding: 5px;
+    border-radius: 50px;
+  }
+  #myBtn:hover {
+    background-color: rgb(229, 229, 229);
+  }
+  .back {
+    font-size: 35px;
+    border: none;
+    color: #d62226;
+    outline: none;
+    background-color: white;
+    cursor: auto;
+    padding: 5px;
+    margin-left: 7%;
+  }
+  .back:hover {
+    opacity: 0.6;
+  }
+  .fa {
+    background-color: none;
+  }
+  .small-container {
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+  }
+  .small-container1 {
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+  }
+  .col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+  }
+  .col-2 img{
+    max-width: 100%;
+    border: 2px solid #9f1818;
+  }
+  .row {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px, 0;
+  }
+  .col-2 .offer-img{
+    padding: 50px;
+  }
+  .text_gallery {
+    width: 100%;
+    font-family: "TTDemi";
+    font-size: 50px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  .text_gallery1 {
+    width: 70%;
+    font-family: "TTCommons";
+    font-size: 20px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .text_gallery2 {
+    width: 70%;
+    font-family: "TTCommons";
+    font-size: 15px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .text_gallery3 {
+    width: 90%;
+    font-family: "TTDemi";
+    font-size: 40px;
+    color:#9f1818;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  .button {
+    background-color: white;
+    border: 2px solid #d62226;
+    border-radius: 30px;
+    color: #d62226;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "PSB";
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 60px;
+    margin-top: 2%;
+  }
+  .button1 {
+    background-color: white;
+    border: 2px solid #d62226;
+    border-radius: 30px;
+    color: #d62226;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "PSB";
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 2%;
+  }
+  .button2 {
+    background-color: white;
+    border: 2px solid #d62226;
+    border-radius: 30px;
+    color: #d62226;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "PSB";
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 5%;
+  }
+  .button:hover {
+    color: rgb(162, 162, 162);
+  }
+  .button:focus {
+    background-color: rgb(255, 162, 162);
+  }
+  .button1:hover {
+    color: rgb(162, 162, 162);
+  }
+  .button1:focus {
+    background-color: rgb(255, 162, 162);
+  }
+  .button2:hover {
+    background-color: rgb(255, 120, 120);
+  }
+  @media (max-width: 768px) {
+    .text_gallery {
+      font-size: 35px;
+    }
+    .text_gallery3 {
+      font-size: 25px;
+    }
+  }

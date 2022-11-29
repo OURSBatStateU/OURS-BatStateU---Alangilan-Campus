@@ -1,0 +1,242 @@
+@font-face {
+    font-family: PSB;
+    src: url(fonts/PoppinsSemibold-8l8n.otf);
+  }
+  @font-face {
+    font-family: TTCommons;
+    src: url(fonts/TT\ Commons\ ExtraLight.otf);
+  }
+  @font-face {
+    font-family: TTDemi;
+    src: url(fonts/TT\ Commons\ DemiBold.otf);
+  }
+  body{
+    background-color: white;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    font-family: "TTCommons";
+    font-weight: bolder;
+    font-size: large;
+    display: block;
+    color: #d62226;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:rgb(244, 244, 244);
+  }
+  section {
+    justify-content: center;
+    align-items: center;
+  }
+  section.type-a {
+    background-color: rgb(255, 255, 255, 0.7);
+    margin-bottom: 10%;
+    max-width: 100%;
+    height: auto;
+  }
+  section.type-b {
+    background-color: rgb(255, 255, 255, 0.7);
+    margin-top: 5%;
+    margin-bottom: 0%;
+    max-width: 100%;
+    height: auto;
+  }
+  .paragraph-1 {
+    color: rgb(51, 49, 49);
+    font-size: 20px;
+    font-family: "TTCommons";
+    text-align: justify center;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.paragraph-2 {
+    color: rgba(59, 59, 59, 0.8);
+    font-size: x-large;
+    font-family: "PSB";
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.center {
+    text-align: center;
+    width: 100%;
+  }
+.fa {
+    padding: 4px;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin: 5px 5px;
+    position: relative;
+  }
+.icon {
+    text-align: center;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook {
+    background: none;
+    color: #d62226;
+    margin-top: 1%;
+  }
+.fa-linkedin {
+    background: none;
+    color: #d62226;
+    margin-top: 1%;
+  }
+.fa-youtube {
+    background: none;
+    color: #d62226;
+    margin-top: 1%;
+  }
+.fa-twitter {
+    background: none;
+    color: #d62226;
+    margin-top: 1%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: none;
+    width: 100%;
+    background-color: none;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: 3px solid #d62226;
+    color: #d62226;
+    outline: none;
+    background-color: white;
+    cursor: auto;
+    padding: 5px;
+    border-radius: 50px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(229, 229, 229);
+  }
+  .mainHeader {
+    color: #d62226;
+    font-size: 3em;
+    font-family: "TTDemi";
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: none;
+    width: 100%;
+    background-color: none;
+    margin-top: 3%;
+    margin-bottom: 4%;
+  }
+  div.gallery {
+    border: none;
+  }
+  
+  
+  div.gallery img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 2px solid rgb(188, 0, 0);
+  }
+  div.gallery img:hover {
+    opacity: 0.5;
+  } 
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .text_gallery {
+    width: 90%;
+    font-family: "TTDemi";
+    font-size: 20px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  .text_gallery1 {
+    width: 70%;
+    font-family: "TTCommons";
+    font-size: 15px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .text_gallery2 {
+    width: 90%;
+    font-family: "TTDemi";
+    font-size: 20px;
+    color:#d62226;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  @media only screen and (min-width: 600px) {
+    .col-s-3 {
+      width: 25%;
+      height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .col-3 {
+      width: 25%;
+      height: 400px;
+    }
+  }
+  @media (max-width: 768px) {
+    .mainHeader {
+        font-size: 2em;
+      }
+    section.type-a {
+      margin-bottom: 5%;
+    }
+    }

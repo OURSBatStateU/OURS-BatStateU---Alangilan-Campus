@@ -1,0 +1,101 @@
+* {
+	 box-sizing: border-box;
+}
+body{
+	background-image: url(bsu_bg.png);
+	background-position:center;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+.cart {
+	width: 60%;
+	margin: 2% auto;
+	border-left: 1px solid rgba(216, 18, 31, 1.0);
+	border-right: 1px solid rgba(216, 18, 31, 1.0);
+	border-bottom: 1px solid rgba(216, 18, 31, 1.0);
+	font-family: "Poppins";
+	border-radius: 5%;
+	background-color: #fafafa;
+}
+
+.cart h1 {
+	border: 2px solid rgba(216, 18, 31, 1.0);
+	border-radius: 3%;
+	background-color: rgba(216, 18, 31, 1.0);
+	padding: 5px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+.items-container {
+	border: 1px solid #D5D5D5;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	padding: 10px;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.details {
+	color: rgb(43, 42, 42);
+}
+
+.removeitem-btn {
+	color: rgba(216, 18, 31, 1.0);
+	text-decoration: none;
+	margin-left: 80%;
+}
+
+.totalprice {
+	margin-left: 70%;
+	margin-bottom: 2%;
+	font-size: 20px;
+}
+
+.prodName {
+	font-size: 22px;
+}
+
+.backbtn {
+	float: left;
+	color: rgba(216, 18, 31, 1.0);
+	text-decoration: none;
+	margin-top: 4%;
+}
+
+.schedbtn {
+	float: right;
+	color: rgba(216, 18, 31, 1.0);
+	text-decoration: none;
+	margin-top: 4%;
+}
+
+.backbtn:hover {
+	opacity: 0.7;
+}
+
+.removeitem-btn:hover {
+	opacity: 0.7;
+}
+
+.schedbtn:hover {
+	opacity: 0.7;
+}
+
+.empCart {
+	margin: 25px;
+}
+
+@media (max-width: 768px) {
+	.cart {
+		width: 85%;
+	}
+	.totalprice {
+		margin-left: 50%;
+		font-size: 15px;
+	}
+	.prodName {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	 
+	<title>BatStateU Online Uniform Reservation Systems</title>
+	<link rel="icon" type="image/gif/png" href="img/logo.png">
+	
+	<style>
+		
+		#errorcontainer {
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.5);
+			font-family: "Poppins";
+		}
+
+		#messagebox {
+			position: relative;
+			background-color: #fefefe;
+			margin: 10% auto;
+			padding: 30px;
+			border: 1px solid #888;
+			border-radius: 30px;
+			width: 25%;
+			text-align: center;
+		}
+		
+		#closebtn {
+			font-size: 25px;
+			color: #FFFFFF;
+			background-color: rgba(216, 18, 31, 0.9);
+			border: none;
+			border-radius: 7px;
+			margin-top: 10px;
+			padding: 10px;
+			cursor: pointer;
+			width: 100px;
+		}
+		
+		#closebtn:hover {
+			background-color: rgba(216, 18, 31, 1.0);
+		}
+		
+		.bi-exclamation-circle {
+			font-size: 50px;
+			color: rgba(216, 18, 31, 0.9);
+		}
+		
+	</style>
+	
+</head>
+<body>
+
+	<div id="errorcontainer">
+		
+		<div id="messagebox">
+		
+			<h1><span><i class="bi bi-exclamation-circle"></i></span><br>ERROR</h1>
+			<p>You entered an incorrect username or password. Please try again.</p>
+			
+			<button id="closebtn" onclick="closeAlert()">Ok</button>
+			
+			<script> 
+								
+				function closeAlert() {
+					window.location.href="newlandpage.html";
+				};
+			
+			</script>
+		
+		</div>
+		
+	</div>
+
+
+
+</body>
+</html>

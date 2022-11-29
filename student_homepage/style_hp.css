@@ -1,0 +1,410 @@
+@font-face {
+  font-family: PSB;
+  src: url(fonts/PoppinsSemibold-8l8n.otf);
+}
+@font-face {
+  font-family: TTCommons;
+  src: url(fonts/TT\ Commons\ ExtraLight.otf);
+}
+body{
+  background-image: url(img/bsu_bg.png);
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mainHeader {
+  color: rgb(218, 67, 67);
+  font-size: 3em;
+  font-family: "Poppins";
+  font-weight: 100;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.res {
+  image-resolution: 300dpi;
+  margin-top: -50px;
+}
+.paragraph-1 {
+  color: rgb(51, 49, 49);
+  font-size: 20px;
+  font-family: "TTCommons";
+  text-align: justify center;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-p1 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+.paragraph-2 {
+  color: rgb(218, 67, 67);
+  font-size: x-large;
+  font-family: "PSB";
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.paragraph-3 {
+  color: rgba(59, 59, 59, 0.8);
+  font-size: x-large;
+  font-family: "PSB";
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.paragraph-4 {
+  color: rgb(218, 67, 67);
+  font-size: 18px;
+  font-family: "TTCommons";
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul .active {
+  background-color: #585858;
+}
+li {
+  float: left;
+}
+li a {
+  font-family: "TTCommons";
+  font-weight: bolder;
+  font-size: large;
+  display: block;
+  color: #d62226;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:rgb(244, 244, 244);
+}
+a {
+  text-decoration: none;
+}
+picture {
+  display: block;
+  width: 100;
+  margin: auto;
+}
+picture > * {
+  max-width: 100%;
+}
+section {
+  justify-content: center;
+  align-items: center;
+}
+section.type-a {
+  background-color: rgb(255, 255, 255, 0.7);
+  margin-bottom: 0%;
+  max-width: 100%;
+  height: auto;
+}
+section.type-b {
+  background-color: rgb(255, 255, 255, 0.7);
+  margin-bottom: 0%;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  background: none;
+  width: 70%;
+  border-spacing: 2em;
+  margin: auto;
+  margin-top: 0%;
+}
+div.gallery {
+  border: 4px solid  rgb(111, 110, 110);
+}
+
+div.gallery:hover {
+  border: 4px solid #d62226;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: none;
+}
+
+.image-1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle-1 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-1:hover .image-1 {
+  opacity: 0.5;
+}
+
+.container-1:hover .middle-1 {
+  opacity: 1;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+image {
+  size: 10%;
+}
+
+.image-left,
+.image-right {
+  margin: 1em 0;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+  background-color: none;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+.fa {
+  padding: 4px;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  margin: 5px 5px;
+  position: relative;
+}
+.icon {
+  text-align: center;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: none;
+  color: #d62226;
+  margin-top: 1%;
+}
+.fa-linkedin {
+  background: none;
+  color: #d62226;
+  margin-top: 1%;
+}
+.fa-youtube {
+  background: none;
+  color: #d62226;
+  margin-top: 1%;
+}
+.fa-twitter {
+  background: none;
+  color: #d62226;
+  margin-top: 1%;
+}
+.side {
+  width: 40%;
+  height: 375px;
+  float: right;
+}
+.img_box {
+  float: left;
+  height: 350px;
+  width: auto;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+.txt_box {
+  width: 90%;
+  font-family: "TTCommons";
+  font-size: 20px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 16%;
+}
+.txt_box1 {
+  width: 90%;
+  font-family: "TTCommons";
+  font-size: 20px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 18%;
+}
+.txt_box2 {
+  width: 90%;
+  font-family: "TTCommons";
+  font-size: 20px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.boxMain {
+  width: 55%;
+  height: auto;
+  background: rgba(220, 219, 219, 0.6);
+  display: inline-block;
+}
+.box1 {
+  margin-left: 10px;
+  width: 97%;
+  background: rgb(220, 219, 219, 0.6);
+  height: auto;
+}
+
+.logout {
+	float: right !important;
+}
+
+.logout:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+@media (max-width: 768px) {
+  .img_box {
+    height: 150px;
+  }
+  .txt_box {
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+  .txt_box1 {
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+  .txt_box2 {
+    font-size: 15px;
+    margin-bottom: none;
+  }
+  .paragraph-1 {
+    font-size: 15px;
+  }
+  .container-p1 {
+    width: 97%;
+  }
+  .boxMain {
+    width: 100%;
+  }
+  .box1 {
+    margin-left: none;
+    margin-top: 3%;
+    width: 100%;
+  }
+  .side {
+    width: 100%;
+  }
+  .mainHeader {
+    font-size: 2em;
+  }
+}
+
+input[type="checkbox"] + label {
+  color: white;
+  font-style: italic;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-3 {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-3 {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column-2,
+  input[type="submit"] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@-webkit-keyframes grow {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+}

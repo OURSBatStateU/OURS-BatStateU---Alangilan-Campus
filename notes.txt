@@ -1,0 +1,9 @@
+->w/ fully operational cart
+-> w/ functional Done button in reservation list page
+
+->w/ automatic emailing for reservation
+
+->w/ automatic emailing for cancel reservation
+
+->w/ automatic emailing for completed purchase transaction in RGO
+
