@@ -41,11 +41,11 @@ else{
 		
 		
 		if ((empty($uname)) || (empty($pass))){
-			header ("Location: newlandpage.html");
+			header ("Location: index.html");
 			exit();
 		}
 		else if ((empty($uname)) && (empty($pass))){
-			header ("Location: newlandpage.html");
+			header ("Location: index.html");
 			exit();
 		}
 		else if ((isset($uname)) && (isset($pass))) {
